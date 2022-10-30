@@ -28,7 +28,7 @@ header {
     justify-content: center;
 }
 
-header img { width: 6rem; }
+header img { width: 6rem; height: 6rem; }
 
 #dock ul {
     display: flex;
@@ -47,7 +47,6 @@ header img { width: 6rem; }
 
 #dock ul li:hover {
     animation: slime 0.75s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
-    margin-top: -0.5rem;
     outline: none;
 }
 
@@ -178,7 +177,7 @@ header img { width: 6rem; }
         width: 40rem;
     }
 
-    header img { width: 8rem; }
+    header img { width: 12rem; height: 12rem; }
 
     #dock ul {
         column-gap: 0;
