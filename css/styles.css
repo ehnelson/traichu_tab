@@ -189,3 +189,7 @@ header img { width: 6rem; height: 6rem; }
 }
 
 .slide { animation: slide 4250ms ease-in; }
+
+.desaturate {
+    filter: saturate(0%);
+}
